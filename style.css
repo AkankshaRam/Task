@@ -1,0 +1,64 @@
+.image1{
+  -webkit-filter: grayscale(5) invert(5);
+filter: grayscale(5) invert(5);
+transform: translate(20px,20px);
+}
+img{
+  -webkit-filter: drop-shadow(5px 5px 5px #666666);
+filter: drop-shadow(5px 5px 5px #666666);
+}
+.parent{
+     transform: rotate(35deg);
+}
+.parent1{
+     transform: rotate(-50deg);
+}
+hr{
+  border-top:1px solid #D5D5D5;
+}
+.trust{
+  text-align: center !important;
+}
+.circle-icon {
+    background: #E4D8DC;
+    padding: 20px;
+    border-radius: 50%;
+    color: black;
+    text-align:left;
+}
+
+#testimonials{
+  text-align: center;
+  background-color:#E4D8DC;
+  color: black;
+  font-size: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+q{
+  font-family: 'Architects Daughter', cursive;
+  color:#423F3E;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* MEDIA QUERY FOR MOBILE VIEW */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .headset{
+    height: 200px;
+    width: 200px;
+  }
+  .logo{
+    padding-bottom: 15px;
+    height: 130px;
+  }
+}
